@@ -8,7 +8,9 @@ cache:
 deploy:
   provider: heroku
   api_key:
-    secure: {PUT_YOUR_OWN_API_KEY_HERE}
-  app: floating-bayou-47300
+    secure: JeOscO70dErHZaw21a25+6ehVg++KHKkZHFC3c0BYR4OyHGs8AkvPBlSuEIIrnREiNcwME+hx9nXZBMFPjUnOW4nfoVwhRNjJkp+2hKHE60JWXUshLumSRIiX1MZmgKP4Z8j3ZVUXskAmVbnaWGLGAfGHG2mVocapD+2rBYra+pZjdtOeVekfazANb0FbXMbnT+ulhfBMsMNoMbRZp0l79lRbWo7/M/AacvPql3uM4IibV7za35jXKrp5VuhCNxQZcXgzRtmekUBqiMjY5nzZjMbGnikOAxBqv6IpuHg0NkneEXJ5QGG1hEDgHVdnG54Kh72RHPeexjcT14mOk2CevqVmMYE8SNC0BY0tfJcgOFi6OSKzZu+aRAWs38L1WwlP/axpW2IrRtoVZJ8dCCaZK32PEr+uHzGwtecJotszQwI2VMQ7EaEglISIzjbi4ShEbm6uy9kdE3jsnWWE5hho8dZooA259izbOSVBegH6ekPTOwq4i7dnPG7gTPv/vb2ObY0KY9Cla6BihkmDiiPCTPj44HRZsq0ZBc5tQwvTqUcW6ySZAyDbS/iFifnXLBKMOB7W1FJoWq8MnEBYIJJkLvNEv44uTc27xLONP6o1TC5H6Rk3kqLy3DCbxhDaXL1yYgsPrFOTFqUuv7/JwOJoXTMQCyZvZ2X+6MHca+o/x4=
+  app: unittest-travis-heroku
   on:
-    repo: mcilhaggis/unittest-travis-heroku
+    repo: Mcilhaggis/unittest-travis-heroku
+    branch: main
+  skip_cleanup: 'true'

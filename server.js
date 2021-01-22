@@ -16,7 +16,7 @@ require('./controller/api-routes')(app);
 const server = app.listen(PORT, () => {
   // you will need to fix this line and the line below once you run the eslint test
   // eslint-disable-next-line no-console
-  console.log('app running on port ', PORT);
+  console.log('my app running on port ', PORT);
 });
 // the comment below is recognised by eslint -
 // you would want to prvent from mdeplyng code that has console.log
