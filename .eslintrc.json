@@ -5,8 +5,10 @@
         "es2021": true,
         "node": true
     },
+    // following the rules of airbnb for linting
     "extends": "airbnb-base",
     "parserOptions": {
+        // parsing using the latest javascript code 
         "ecmaVersion": 12
     },
     "rules": {
